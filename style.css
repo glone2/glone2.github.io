@@ -1,0 +1,112 @@
+body {
+	background-color:006666;
+	height: 100%
+	width: 100%;
+}
+
+img {
+	border: 2px solid white;
+	box-shadow: 5px 5px 5px black;
+	
+
+}
+p {
+	color: white;
+	text-align: center;
+	font-family: monospace;
+	font-size: 26px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: monospace;
+	font-size: 40px;
+	margin: 10%;
+}
+
+#container {
+    text-align: center;
+    font-family: monospace;
+    font: Monaco;
+    font-size: 18;
+    position: relative;
+}
+	
+
+.box {
+	Display: table-cell;
+	width: 20%;
+	height: 150px;
+	text-align: center;
+	background-color: #292929;
+	border: 2px solid white;
+	padding: 25px;
+ 	font-family: monospace;
+ 	font-size: 18;
+  	color: #cc0052;
+  	box-shadow: 5px 5px 5px black;
+ 
+}
+
+
+.vertAlign {
+	
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+
+.boxes {
+    display: table;
+	width: 100%;
+	border-spacing: 5px;
+}
+
+
+
+.searchForm {
+
+padding-left: 5;
+padding-right: 8;
+}
+
+.searchInput {
+	width: 100%;
+	border: none;
+	margin: auto;
+	display: block;
+	padding: 5px 5px;
+	background-color: #292929;
+	border: 2px solid white;
+	box-shadow: 5px 5px 5px black;
+  font-family: monospace;
+  font: Monaco;
+	font-size: 14pt;
+	color: #eff1f5;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+
+input:focus {
+    outline: none;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #006666;
+
